@@ -1,0 +1,369 @@
+ <!DOCTYPE HTML> 
+    <html>
+        <head>
+<style>
+.bordered { border-style:solid; }
+</style>
+<script language=“JavaScript”>
+function MiscWindow(w,h,url){
+opts = “width=”+w+“,height=”+h;
+opts = opts+”,scrollbars=no,resizable=yes”;
+fin=window.open(url,“”,opts);
+}
+</script>
+</head> 
+<body>
+<h1 align="center">Paragraph</h1>
+<p>The Declaration of Independence begins with the following paragraph:</p>
+<p>When in the Course of human events, it becomes necessary for
+one people to dissolve the political bands which have
+connected them with another, and to assume among the powers
+of the earth, the separate and equal station to which the
+Laws of Nature and of Nature’s God entitle them, a decent
+respect to the opinions of mankind requires that they should
+declare the causes which impel them to the separation.</p>
+
+<h1 align="center">Paragraph</h1>
+<p align="center">The Declaration of Independence begins with the following paragraph:</p>
+<p>When in the Course of human events, it becomes necessary for
+one people to dissolve the political bands which have
+connected them with another, and to assume among the powers
+of the earth, the separate and equal station to which the
+Laws of Nature and of Nature’s God entitle them, a decent
+respect to the opinions of mankind requires that they should
+declare the causes which impel them to the separation.</p>
+
+<h1 align="center">Blockquote</h1>
+<blockquote>
+The Declaration of Independence begins with the following paragraph:
+</blockquote>
+<blockquote>
+When in the Course of human events, it becomes necessary for
+one people to dissolve the political bands which have
+connected them with another, and to assume among the powers
+of the earth, the separate and equal station to which the
+Laws of Nature and of Nature’s God entitle them, a decent
+respect to the opinions of mankind requires that they should
+declare the causes which impel them to the separation.
+</blockquote>
+
+<h1 align="center">Ordered list</h1>
+<ol>Дейности
+<li>Аксесоари
+<li>Шивашки услуги
+<li>Компютърен набор на текст
+<li>Локални охранителни системи
+<li>Видеонаблюдение
+<li>GPS Системи
+<li>Консултации по изготвяне на Уеб сайтове
+</ol>
+
+<h1 align="center">Unordered list</h1>
+<ul>Дейности
+<li>Аксесоари
+<li>Шивашки услуги
+<li>Компютърен набор на текст
+<li>Локални охранителни системи
+<li>Видеонаблюдение
+<li>GPS Системи
+</ul>
+
+<h1 align="center">Definition list</h1>
+<dl>
+<dt> a) Щноли за коса
+<dt> b) Колани
+<dd>- Дамски колани
+<dd>- Мъжки колани
+<dd>- Детски колани
+</dl>
+
+<h1 align="center">list-style lower-alpha...</h1>
+<ol style="list-style: lower-alpha;">Дейности
+<li>Аксесоари
+<li>Шивашки услуги
+<li>Компютърен набор на текст
+<li>Локални охранителни системи
+<p>✦ decimal
+✦ decimal-leading-zero
+✦ lower-roman
+✦ upper-roman
+✦ lower-greek
+✦ lower-alpha
+✦ lower-latin
+✦ upper-alpha
+✦ upper-latin
+✦ hebrew
+✦ armenian
+✦ georgian
+✦ cjk-ideographic
+✦ hiragana
+✦ katakana
+✦ hiragana-iroha
+✦ katakana-iroha
+✦ none</p>
+<p>Ordered lists also support the list-style-position property. This property
+controls where the number or character preceding each item appears. The property
+has two possible values:
+<p>✦ outside—The number or character appears outside the left margin of the item
+text.</p>
+✦ inside—The number or character appears inside the left margin of the item
+text.</p>
+</ol>
+
+<h1 align="center">Preformatted text</h1>
+<pre>
++---------------+-------------------+
+| name | value |
++---------------+-------------------+
+| newsupdate | 1069009013 |
+| releaseupdate | Wed, 8/28, 8:18pm |
+| rolfstatus | 0 |
+| feedupdate | 1069009861 |
++---------------+-------------------+
+Тази таблица е вмъкната
+Пренесена
+</pre>
+
+<h1 align="center">Divisions</h1>
+<p>This is a normal paragraph:   <br><br>  When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.</p>
+<div style="background-color:green;color:white;padding:20px;"><p>This is a paragraph delimited with
+the defined div style which includes a border:  <br><br> When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature’s God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation.
+</p></div>
+
+<h1 align="center">Inline Elements: Markup for Characters</h1>
+<h1 align="center">Basic inline tags</h1>
+
+<ul>
+    <li><b>Bold</b>
+<li><i>Italic (i)</i>
+<li><big>Big text (big)</big>
+<li><small>Small text (small)</small>
+<li><em>Emphasized text (em)</em>
+<li><strong>Strong text (strong)</strong>
+<li><tt>Teletype (monospaced) text (tt)</tt>
+
+<h1 align="center">Spanning</h1>
+
+	<p><span style="color: green; text-decoration; underline; font-weight: bold;">Spanning tags are used to span inline styles across multiple characters or
+words. In effect, the tag allows you to define your own inline styles.</span> For
+example, if you need to specify text that is bold, red, and underlined, you could use
+code similar to the following:</p>
+
+<h1 align="center">Special Characters (Entities)</h1>
+</ul>
+<p>&nbsp; A non-breaking space (see later)</p>
+<p>&lt; The Declaration</p>
+<p>&copy; The Declaration</p>
+<p>&amp; An ampersant</p>
+<p>&#151;An em dash</p>
+
+<h1 align="center">Table</h1>
+<table border="1"; align="center">
+		<tr><td>Name</td><td>Age</td><td>City</td><td>Language</td></tr>
+		<tr><td>Петя</td><td>43</td><td>Плевен</td><td>Български</td></tr>
+		<tr><td>Цветан</td><td>23</td><td>София</td><td>Български</td></tr>
+		<tr><td>Персияна</td><td>13</td><td>Тетевен</td><td>Български</td><tr>
+		    </table>
+		    
+<h1 align="center">Forms</h1>
+<blockquote>
+        <p>HTML forms provide a method to use standard GUI elements to display and collect
+data. HTML forms provide the standard litany of GUI elements, including text boxes,
+check boxes, pull down (also referred to as drop-down) lists, and more. In addition
+to providing basic GUI elements, HTML forms also provide a rudimentary method of
+collecting data and passing that data to a data handler for validation, storage,
+comparison, and so on.</p>
+        </blockquote>
+		<form>
+	<!-- Text field -->
+	    <b>    Име:</b> <input type="text" name="name" size="20">
+		<br><br>
+		<b>Фамилия:</b> <input type="text" name="name" size="20">
+		<br><br>
+    <!-- Select list -->
+	    <b>Роден/а на:</b> 
+		<select name="Дата">
+		<option name="Дата">Дата
+		<option name="01">01
+		<option name="02">02
+		<option name="03">03
+		<option name="04">04
+		<option name="05">05
+		<option name="06">06
+		<option name="07">07
+		<option name="08">08
+		<option name="09">09
+		<option name="10">10
+		<option name="11">11
+		<option name="12">12
+		<option name="13">13
+		<option name="14">14
+		<option name="15">15
+		<option name="16">16
+		<option name="17">17
+		<option name="18">18
+		<option name="19">19
+		<option name="20">20
+		<option name="21">21
+		<option name="22">22
+		<option name="23">23
+		<option name="24">24
+		<option name="25">25
+		<option name="26">26
+		<option name="27">27
+		<option name="28">28
+		<option name="29">29
+		<option name="30">30
+		<option name="31">31
+		</select>
+		<select name="Месец">
+		<option name="Месец">Месец
+		<option name="Януари">Януари
+		<option name="Февруари">Февруари
+		<option name="Март">Март
+		<option name="Април">Април
+		<option name="Май">Май
+		<option name="Юни">Юни
+		<option name="Юли">Юли
+		<option name="Август">Август
+		<option name="Септември">Септември
+		<option name="Октомври">Октомври
+		<option name="Ноември">Ноември
+		<option name="Декември">Декември
+		</select>
+		<select name="Година">
+		<option name="Година">Година
+		<option name="1940">1940
+		<option name="1941">1941
+		<option name="1942">1942
+		<option name="1943">1943
+		<option name="1944">1944
+		<option name="1945">1945
+		<option name="1946">1946
+		<option name="1947">1947
+		<option name="1948">1948
+		<option name="1949">1949
+		<option name="1950">1950
+		<option name="1951">1951		
+		<option name="1952">1952
+		<option name="1953">1953
+		<option name="1954">1954
+		<option name="1955">1955
+		<option name="1956">1956
+		<option name="1957">1957
+		<option name="1958">1958
+		<option name="1959">1959
+		<option name="1960">1960
+		<option name="1961">1961
+		<option name="1962">1962
+		<option name="1963">1963
+		<option name="1964">1964
+		<option name="1965">1965
+		<option name="1966">1966
+		<option name="1967">1967
+		<option name="1968">1968
+		<option name="1969">1969
+		</select>
+		<br><br>
+	<!-- Text field -->
+	    <b>Местожителство:</b> <input type="text" name="name" size="20">
+		<br><br>
+		<b>Гражданство:</b> <input type="text" name="name" size="20">
+		<br><br>
+		<b>Имейл адрес:</b> <input type="text"name="name" size="20">
+		<br><br>
+		</form>
+		
+		
+		<hr>
+		<h1 align="center">Linking to Other Pages</h1>
+		<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+		<br><br><br>
+		
+		<hr>
+		<h1 align="center">Images</h1>
+		<ul/ style="list-style: disc;">
+				<li>Image Formats for the Web</li>
+				<pre>Dimensions (in Inches) Colors File Size
+1 ×1 2 9K
+1 ×1 256 9K
+1 × 1 16.7 million 18K
+2 ×2 2 16K
+2 × 2 256 24K
+2 × 2 16.7 million 63K
+3 ×3 2 16K
+3 × 3 256 49K
+3 × 3 16.7 million 139K</pre>
+				<li>Creating Graphics</li>
+				<li>Inserting an Image</li>
+				<li>Image Alignment</li>
+				<li>Specifying Text to Display
+				for NonGraphical Browsers</li>
+				<li>Size and Scaling</li>
+				<li>Image Borders and Maps</li>
+				<li>Animated Images</li>
+				</ul>
+				<p>✦✦✦✦</p>
+	
+<iframe src="https://drive.google.com/file/d/1n4Gpf9TpllVSTqVg_SmplaDjG_c4taC5uA/preview" width="640" height="480"></iframe>
+<iframe src="https://docs.google.com/document/d/1-Rsa5VLNHmIFrpVlPJOOlYE_IBn7q62lkiz7ADUweZE/edit?usp=sharing"width="640" height="480"></iframe>
+<hr>
+<h1 align="center">Comments</h1>
+<p>Browser will ignore anything between the
+comment tags.</p>
+<!-- This section needs better organization. -->
+<!-- The following table needs to include these columns:
+Age
+Marital Status
+Employment Date
+-->
+<hr>
+<h1 align="center">Scripts</h1>
+<p>HTML is a static method of deploying content—the content is sent out to a client
+browser where it is rendered and read, but it typically doesn’t change once it is
+delivered. However, there is a need in HTML documents for such things as
+decision-making ability, form validation, and, in the case of Dynamic HTML (DHTML),
+dynamic object attribute changes. In those cases (and more), client-side scripting
+can be used.</p>
+<p>Look in head!</p>
+<head>
+<script language=“JavaScript”>
+function MiscWindow(w,h,url){
+opts = “width=”+w+“,height=”+h;
+opts = opts+”,scrollbars=no,resizable=yes”;
+fin=window.open(url,“”,opts);
+}
+</script>
+</head>
+<hr>
+
+<h1 align="center">Meta information IN BODY!</h1>
+<meta http-equiv=“Content-Type” content=“text/html; charset=ISO-8859-1”>
+
+<meta name=“description” content=“The latest movie news”>
+<meta name=“keywords” content=“movie, movies, production,
+genre, sci fi, horror, drama, comedy, anima, manga, news,
+chat, bbs, discuss, review, recent”>
+
+<hr>
+
+<h1 align="center">Horozontal rules</h1>
+<hr>
+<h1 align="center">Creating Automatic Refreshes and Redirects in BODY!</h1> 
+
+<meta http-equiv=“refresh” content=“seconds_to_wait; url”>
+
+<title>My Bio has Moved!</title>
+<meta http-equiv=“pragma” content=“no-cache”>
+<meta http-equiv=“refresh” content=“$3$;
+URL= http://www.example.com/bio/index.html”>
+<p>My bio has moved. You will be redirected to the new page
+in 3 seconds, or you can click the link below.</p>
+<a href=“http://www.example.com/bio/index.html”>My new
+bio.</a>
+
+<hr>
+
+
+</body>
+</html>
